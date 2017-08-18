@@ -39,5 +39,4 @@ class Convert():
             number /= 10
             result = "{} {}".format(self.tens.get((number % 10) - 1), result)
             number /= 10
-
-        return result if number == 0 else "{} hundred {}".format(self.numbers.get(number - 1), result)
+        return result if int(number) == 0 else "{} hundred {}".format(self.numbers.get(number - 1), result)
