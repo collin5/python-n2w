@@ -1,0 +1,7 @@
+[run]
+source = app
+omit = 
+    */tests/*
+    */env/*
+    **/virtualenv/*
+
