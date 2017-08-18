@@ -1,4 +1,7 @@
 [run]
 source = app
-include app/*
-omit = tests/
+omit = 
+    */tests/*
+    */env/*
+    **/virtualenv/*
+
