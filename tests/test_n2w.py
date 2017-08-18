@@ -20,7 +20,7 @@ class N2wTestCase(TestCase):
 
     def test_convert_numbers_less_than_100_successfully(self):
         result = self.n2w.convert(49)
-        self.assertEqual("forty two", result.lower())
+        self.assertEqual("forty nine", result.lower())
 
     def test_convert_hundreds_successfully(self):
         result = self.n2w.convert(134)
@@ -40,7 +40,7 @@ class N2wTestCase(TestCase):
 
     def test_convert_quadrillions_successfully(self):
         result = self.n2w.convert(3000000000000)
-        self.assertEqual("three quandrillion", result.lower())
+        self.assertEqual("three quadrillion", result.lower())
 
     def test_convert_quintillions_successfully(self):
         result = self.n2w.convert(10000000000000000)
