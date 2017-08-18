@@ -20,7 +20,7 @@ class Convert():
             "thousand", "million", "billion", "quadrillion", "quintillion"
         ])
         self.tens = safelist([
-            "ten", "twenty", "thrity", "forty", "fifty", "sixty", "seventy", "eighty",
+            "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty",
             "ninety"
         ])
         self.numbers = safelist([
