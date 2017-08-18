@@ -13,19 +13,18 @@ class N2w(Convert):
         if input == 0:
             return "zero"
         else:
-            prefix = ""
+            input, prefix = int(input), ""
             if input < 0:
                 prefix, input = "negative", -input
 
             result, pointer = "", 0
             while True:
-                if input % 1000 != 0:
+                if int(input) % 1000 != 0:
                     result = "{} {} {}".format(self.less_than_athousand(
                         input % 1000), self.greater_names.get(pointer - 1), result)
                 pointer += 1
                 input /= 1000
 
-                if input < 1:
+                if int(input) < 1:
                     break
-
             return "{} {}".format(prefix, result).strip()
