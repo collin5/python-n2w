@@ -13,6 +13,10 @@ class N2w(Convert):
         if input == 0:
             return "zero"
         else:
+            # check if number bigger than quintillion
+            if (len(str(input)) >= (len(self.greater_names) * 4) -1):
+                return "Number too big"
+
             input, prefix = int(input), ""
             if input < 0:
                 prefix, input = "negative", -input

@@ -45,3 +45,8 @@ class N2wTestCase(TestCase):
     def test_convert_quintillions_successfully(self):
         result = self.n2w.convert(10000000000000000)
         self.assertEqual("ten quintillion", result.lower())
+
+    def test_number_greatter_than_quintillion(self):
+        result = self.n2w.convert(1000000000000000000)
+        self.assertEqual("number too big", result.lower())
+
