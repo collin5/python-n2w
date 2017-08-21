@@ -14,7 +14,7 @@ class N2w(Convert):
             return "zero"
         else:
             # check if number bigger than quintillion
-            if (len(str(input)) > len(self.greater_names) * 1000):
+            if (len(str(input)) >= (len(self.greater_names) * 4) -1):
                 return "Number too big"
 
             input, prefix = int(input), ""
