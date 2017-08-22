@@ -9,7 +9,7 @@ setup(
     
     author="Collins Abitekaniza",
     author_email="abtcolns@gmail.com",
+    url="https://github.com/collin5/python-n2w",
 
-    packages=['app'],
-    scripts=['app/n2w']
+    scripts=['app/n2w.py']
 )
