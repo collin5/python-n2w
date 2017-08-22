@@ -50,3 +50,7 @@ class N2wTestCase(TestCase):
         result = self.n2w.convert(1000000000000000000)
         self.assertEqual("number too big", result.lower())
 
+    def test_convert_invalid_value(self):
+        result = self.n2w.convert("this should not work")
+        self.assertTrue("not a valid number" in result.lower())
+
