@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from unittest import TestCase
-from app.n2w import N2w
+from n2w.n2w import N2w
 
 
 class N2wTestCase(TestCase):
