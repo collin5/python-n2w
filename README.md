@@ -3,3 +3,7 @@
 [![Build Status](https://travis-ci.org/collin5/python-n2w.svg?branch=master)](https://travis-ci.org/collin5/python-n2w)
 [![Coverage Status](https://coveralls.io/repos/github/collin5/python-n2w/badge.svg)](https://coveralls.io/github/collin5/python-n2w)
 [![PyPI version](https://badge.fury.io/py/n2w.svg)](https://badge.fury.io/py/n2w)
+
+Python library that transforms numbers to words.
+
+![example](screenshots/example.gif)
