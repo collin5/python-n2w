@@ -11,7 +11,11 @@ A Python library that transforms numbers to words.
 
 
 ## Installation
-To add to your project, just do `pip install n2w`
+To add to your project, just do
+```
+pip install n2w
+```
+
 ## Usage
 ```
 from n2w import convert
