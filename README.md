@@ -5,7 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/n2w.svg)](https://badge.fury.io/py/n2w)
 
 
-A Python library that transforms numbers to words from negative ninety nine "- 99" qunintillion to ninety nine "+ 99" quintillion
+A Python library that transforms numbers to words from negative ninety nine "- 99" qunintillion to ninety nine "+ 99" quintillion.
 
 ![example](screenshots/example.gif)
 
