@@ -5,7 +5,7 @@
 [![PyPI version](https://badge.fury.io/py/n2w.svg)](https://badge.fury.io/py/n2w)
 
 
-A Python library that transforms numbers to words.
+A Python library that transforms numbers to words to quintillions
 
 ![example](screenshots/example.gif)
 
