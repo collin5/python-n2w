@@ -37,4 +37,4 @@ class N2w(Convert):
 
                 if int(number) < 1:
                     break
-            return "{} {}".format(prefix, result).strip()
+            return "{} {}".format(prefix, result).strip().replace("  ", " ")
