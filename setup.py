@@ -11,7 +11,7 @@ def readme():
 
 setup(
     name="n2w",
-    version="0.1.1",
+    version="0.1.2",
     description="Python library to convert numbers to words",
     long_description="Python library to covnert numbers to words",
     kewords='library numbers algorithim words convert',
