@@ -22,8 +22,8 @@ from n2w import convert
 result = convert(123456)
 ```
 
-## Contributors
- You can view people who contributed to this project ![here](https://github.com/collin5/python-n2w/graphs/contributors)
+## Authors
+ See list of [contributors](https://github.com/collin5/python-n2w/graphs/contributors) who participated in this project.
  
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
