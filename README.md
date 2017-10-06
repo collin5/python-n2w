@@ -21,6 +21,10 @@ pip install n2w
 from n2w import convert
 result = convert(123456)
 ```
+
+## Contributors
+ You can view people who contributed to this project ![here](https://github.com/collin5/python-n2w/graphs/contributors)
+ 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
