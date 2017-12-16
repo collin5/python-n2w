@@ -25,7 +25,7 @@ class Convert():
         ])
         self.numbers = safelist([
             "one", "two", "three", "four", "five", "six", "seven", "eight", "nine",
-            "ten", "eleven", "twelve", "thirteen", "forteen", "sixteen", "seventeen",
+            "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
             "eighteen", "nineteen"
         ])
 
