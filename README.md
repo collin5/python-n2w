@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/collin5/python-n2w.svg?branch=master)](https://travis-ci.org/collin5/python-n2w)
 [![Coverage Status](https://coveralls.io/repos/github/collin5/python-n2w/badge.svg)](https://coveralls.io/github/collin5/python-n2w)
 [![PyPI version](https://badge.fury.io/py/n2w.svg)](https://badge.fury.io/py/n2w)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 A Python library that transforms numbers to words from negative ninety nine "- 99" qunintillion to ninety nine "+ 99" quintillion.
@@ -26,7 +27,6 @@ result = convert(123456)
  See list of [contributors](https://github.com/collin5/python-n2w/graphs/contributors) who participated in this project.
  
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 MIT © [Collins](https://github.com/collin5/)
 
