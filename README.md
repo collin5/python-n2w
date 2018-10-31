@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-A Python library that transforms numbers to words from negative ninety nine "- 99" qunintillion to ninety nine "+ 99" quintillion.
+A Python library that transforms numbers to words from negative ninety nine "- 99" quintillion to ninety nine "+ 99" quintillion.
 
 ![example](screenshots/example.gif)
 
