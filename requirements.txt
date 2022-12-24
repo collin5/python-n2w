@@ -1,6 +1,6 @@
 certifi==2019.6.16
 chardet==3.0.4
-coverage==4.5.4
+coverage==7.0.1
 coveralls==1.8.2
 docopt==0.6.2
 extras==1.0.0
